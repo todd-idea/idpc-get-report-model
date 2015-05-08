@@ -57,7 +57,7 @@ public class Main {
 		 * 1) app name (to include in header)
 		 * 2) app key (to include in header)
 		 */
-		def cli = new CliBuilder( usage: 'GetReportModel -v -s -st -h host -p port -b basePath -rid reportID -a "TestClient" -k "ABCDEFG123456"' )
+		def cli = new CliBuilder( usage: 'Main -v -s -st -h host -p port -b basePath -rid reportID -a "TestClient" -k "ABCDEFG123456"' )
 		cli.with {
 			v longOpt: 'verbose', 'verbose output'
 			s longOpt: 'ssl', 'use SSL (default: false)'
